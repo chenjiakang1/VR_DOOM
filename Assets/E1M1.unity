@@ -7874,6 +7874,7 @@ MonoBehaviour:
   decreaseArmorAction: {fileID: -6057057252385216204, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
   increaseArmorAction: {fileID: 4355134196676799686, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
   increaseExploreAction: {fileID: -1194136928657261299, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
+  totalMonsters: 35
 --- !u!114 &46395752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60610,7 +60611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -152791,6 +152792,7 @@ MonoBehaviour:
   decreaseArmorAction: {fileID: -6057057252385216204, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
   increaseArmorAction: {fileID: 4355134196676799686, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
   increaseExploreAction: {fileID: -1194136928657261299, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
+  totalMonsters: 35
 --- !u!1 &882121068
 GameObject:
   m_ObjectHideFlags: 0
@@ -228856,7 +228858,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8675178625703847156, guid: 916e713005a3b5e49b123a7dde9c9379, type: 3}
+  - {fileID: -5749030085014855825, guid: e437973fb15c396458be078c30a00bfd, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -391085,9 +391087,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   testValue: {fileID: 358607867110920617, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  muzzleFlashPrefab: {fileID: 100006, guid: 0661276422528d74d8c9894abad93242, type: 3}
-  muzzlePoint: {fileID: 899528194}
-  fireRate: 0.1
+  testGrip: {fileID: 0}
+  gunConfigs: []
+  gunAudioSource: {fileID: 0}
 --- !u!23 &4669543283991008899
 MeshRenderer:
   m_ObjectHideFlags: 0
