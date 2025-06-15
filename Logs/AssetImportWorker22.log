@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker22
 -projectPath
 D:/VR_DOOM
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker22.log
 -srvPort
 62575
 -job-worker-count
@@ -59,18 +59,18 @@ D:/VR_DOOM
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17052]  Target information:
+Player connection [33148]  Target information:
 
-Player connection [17052]  * "[IP] 172.18.144.1 [Port] 0 [Flags] 2 [Guid] 264106216 [EditorId] 264106216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ULV95APN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33148]  * "[IP] 172.18.144.1 [Port] 0 [Flags] 2 [Guid] 2311943523 [EditorId] 2311943523 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ULV95APN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17052]  * "[IP] 192.168.14.1 [Port] 0 [Flags] 2 [Guid] 264106216 [EditorId] 264106216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ULV95APN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33148]  * "[IP] 192.168.14.1 [Port] 0 [Flags] 2 [Guid] 2311943523 [EditorId] 2311943523 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ULV95APN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17052]  * "[IP] 192.168.77.1 [Port] 0 [Flags] 2 [Guid] 264106216 [EditorId] 264106216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ULV95APN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33148]  * "[IP] 192.168.77.1 [Port] 0 [Flags] 2 [Guid] 2311943523 [EditorId] 2311943523 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ULV95APN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17052]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 264106216 [EditorId] 264106216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ULV95APN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33148]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2311943523 [EditorId] 2311943523 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ULV95APN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17052] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17052] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33148] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33148] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,8 +82,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.83 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.65 ms.
+Refreshing native plugins compatible for Editor in 6.56 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
 Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/VR_DOOM/Assets
@@ -100,46 +100,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002683 seconds.
-- Loaded All Assemblies, in  0.281 seconds
+Registered in 0.005020 seconds.
+- Loaded All Assemblies, in  0.263 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1835 ms
+Android Extension - Scanning For ADB Devices 318 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.110 seconds
-Domain Reload Profiling: 2389ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.572 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (27ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (93ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (99ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (92ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (2110ms)
+	FinalizeReload (573ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2076ms)
+		SetupLoadedEditorAssemblies (542ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1903ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			InitializePlatformSupportModulesInManaged (377ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,8 +149,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.724 seconds
-Refreshing native plugins compatible for Editor in 6.63 ms, found 13 plugins.
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 5.85 ms, found 13 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -203,71 +203,63 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.704 seconds
-Domain Reload Profiling: 1425ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (533ms)
-		LoadAssemblies (346ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (281ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (184ms)
-			BuildScriptInfoCaches (47ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (704ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (619ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (600ms)
+		SetupLoadedEditorAssemblies (531ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (345ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 16.71 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 131 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7067 unused Assets / (5.7 MB). Loaded Objects now: 7593.
-Memory consumption went from 160.0 MB to 154.3 MB.
-Total: 14.857100 ms (FindLiveObjects: 1.931000 ms CreateObjectMapping: 0.850500 ms MarkObjects: 8.337700 ms  DeleteObjects: 3.736000 ms)
+Refreshing native plugins compatible for Editor in 10.74 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7067 unused Assets / (5.6 MB). Loaded Objects now: 7598.
+Memory consumption went from 155.3 MB to 149.7 MB.
+Total: 10.275800 ms (FindLiveObjects: 1.449200 ms CreateObjectMapping: 0.517700 ms MarkObjects: 5.663600 ms  DeleteObjects: 2.644300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51844.248644 seconds.
-  path: Assets/classic_weapon_set__doom.glb
-  artifactKey: Guid(ba00cdb3b139d0240b11b1d568952bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/classic_weapon_set__doom.glb using Guid(ba00cdb3b139d0240b11b1d568952bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1453ac1ba119d6b6e1fe42ff94787f21') in 1.0844685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 117
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(289c1b55c9541489481df5cc06664110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(289c1b55c9541489481df5cc06664110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '671bf7a1f7a205deb07e8edec2b46e6a') in 0.0070158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+  Time since last request: 55773.789323 seconds.
+  path: Assets/Prop/AmmoBox/AmmoBox_bump.tga
+  artifactKey: Guid(f7c67e9960f5aff47b77b3da14a94a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/AmmoBox/AmmoBox_bump.tga using Guid(f7c67e9960f5aff47b77b3da14a94a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8978c7aba3fea33d4c0c9aedab20f2ae') in 0.0684946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.689 seconds
-Refreshing native plugins compatible for Editor in 8.36 ms, found 13 plugins.
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 6.09 ms, found 13 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -315,90 +307,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.923 seconds
-Domain Reload Profiling: 1613ms
-	BeginReloadAssembly (183ms)
+- Finished resetting the current domain, in  0.739 seconds
+Domain Reload Profiling: 1324ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (442ms)
-		LoadAssemblies (319ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (278ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
+		AnalyzeDomain (169ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (183ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (923ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (740ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (785ms)
+		SetupLoadedEditorAssemblies (629ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (494ms)
-			ProcessInitializeOnLoadMethodAttributes (158ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 9.68 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 6.45 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7067 unused Assets / (6.2 MB). Loaded Objects now: 7645.
-Memory consumption went from 193.2 MB to 187.0 MB.
-Total: 8.949900 ms (FindLiveObjects: 0.571900 ms CreateObjectMapping: 0.330900 ms MarkObjects: 5.573600 ms  DeleteObjects: 2.471300 ms)
+Unloading 7067 unused Assets / (6.3 MB). Loaded Objects now: 7609.
+Memory consumption went from 191.5 MB to 185.1 MB.
+Total: 7.677600 ms (FindLiveObjects: 0.461200 ms CreateObjectMapping: 0.285200 ms MarkObjects: 4.531200 ms  DeleteObjects: 2.398500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.972670 seconds.
-  path: Assets/Code/开枪音效.mp3
-  artifactKey: Guid(9cdbf94008ffd400ba53a83a57fb0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/开枪音效.mp3 using Guid(9cdbf94008ffd400ba53a83a57fb0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64ba6b039d293167eedee6db7a95fca3') in 0.0823988 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Code/怪物攻击音效2.mp3
-  artifactKey: Guid(3e5fecd3552ac4bb2be3a0fc3c4a8d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/怪物攻击音效2.mp3 using Guid(3e5fecd3552ac4bb2be3a0fc3c4a8d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01a06aa5090dd36790d33c2c042258ac') in 0.0055428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Code/散弹枪音效.ogg
-  artifactKey: Guid(35c5bd03ee63946f4a80eb26ee12c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/散弹枪音效.ogg using Guid(35c5bd03ee63946f4a80eb26ee12c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0c0093186a232d23067deedc9e0b9a5') in 0.006631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Code/怪物攻击音效1.mp3
-  artifactKey: Guid(10f771075f7a740cc94fa1cdec74a877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/怪物攻击音效1.mp3 using Guid(10f771075f7a740cc94fa1cdec74a877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae935fa43e98059a167d09f8df3bddf4') in 0.0047496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.906396 seconds.
-  path: Assets/E1M1/NavMesh-NavMesh Surface.asset
-  artifactKey: Guid(a10e67eba28759d478cef3eec9bd5be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/E1M1/NavMesh-NavMesh Surface.asset using Guid(a10e67eba28759d478cef3eec9bd5be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e33857618d7b39fcb542edb0c675de0') in 0.0014974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
