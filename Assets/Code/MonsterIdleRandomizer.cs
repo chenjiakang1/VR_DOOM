@@ -183,18 +183,21 @@ public class MonsterChasePlayer : MonoBehaviour
                 Vector3 dropPos = (dropPoint != null) ? dropPoint.position : transform.position + Vector3.up * 1f;
 
                 Instantiate(drop, dropPos, Quaternion.identity);
-                Debug.Log($"🎁 [掉落成功] 掉落了：{drop.name}");
+                Debug.Log($"[掉落成功] 掉落了：{drop.name}");
             }
             else
             {
-                Debug.Log("❌ [未掉落] 本次未触发掉落概率");
+                Debug.Log(" [未掉落] 本次未触发掉落概率");
             }
 
 
-            UIStatusManager uiManager = FindFirstObjectByType<UIStatusManager>();
-            if (uiManager != null)
+            if (UIStatusManager.Instance != null)
             {
-                uiManager.AddExploreByKill();
+                UIStatusManager.Instance.AddExploreByKill();
+            }
+            else
+            {
+                Debug.LogWarning(" UIStatusManager.Instance is null，无法加探索度");
             }
 
 

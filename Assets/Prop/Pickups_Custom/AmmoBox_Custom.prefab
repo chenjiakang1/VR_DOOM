@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b3d23bc33304365a3eca45c03167ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amount: 30
+  amount: 20
 --- !u!65 &3516678412362660776
 BoxCollider:
   m_ObjectHideFlags: 0
