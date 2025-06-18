@@ -54,45 +54,46 @@ OOM은 빠른 전투 리듬, 복잡한 미로형 레벨 구성, 그리고 금속
 
 ##  技术栈 / 기술 스택
 
-- Unity 6  
-- XR Interaction Toolkit  
-- OpenXR + Oculus Quest 2  
-- ProBuilder（用于地图编辑） / ProBuilder (맵 편집용)  
-- GitHub（版本控制） / GitHub (버전 관리)
+ - Unity 엔진 (MonoBehaviour, 씬 관리, 프리팹 인스턴싱)
+ - C# (.NET) 언어 기능 (컬렉션, 이벤트 및 델리게이트, 싱글턴 패턴)
+ - Unity 신규 입력 시스템 (Input System 패키지) + XR Interaction Toolkit
+ - 물리 시스템 (Rigidbody, CharacterController, Physics.Raycast, 충돌/트리거)
+ - 코루틴 및 비동기 로직 (Coroutine, WaitForSeconds)
+ - 애니메이션 및 오디오 (Animator 상태 머신, AudioSource 재생)
+ - UI 시스템 (Canvas, TextMeshProUGUI, 실시간 데이터 바인딩)
+ - 데이터 관리 (Dictionary 저장, 게임 상태 싱글턴 관리)
+ - 디버깅 지원 (Debug.Log 로그 출력)
 
 ---
 
-##  项目结构 / 프로젝트 구조
-Assets/             
--  游戏资源、预制体、脚本  
--  게임 에셋, 프리팹, 스크립트
-
-Scenes/             
--  场景文件，如主房间、通道等  
--  Unity 씬 파일들 (Main Room, Tunnel 등)
-
-Scripts/            
--  交互控制、枪械逻辑、AI 脚本  
--  VR 인터랙션, 총기 로직, AI 스크립트
-
-Materials/          
--  材质与贴图（复古风）  
--  메탈 재질 및 DOOM 스타일 텍스처
-
-ProjectSettings/    
--  Unity 项目设置  
--  Unity 프로젝트 설정
-
-.gitignore          
--  忽略缓存与编译临时文件  
--  캐시 및 임시 빌드 파일 무시
+## 설치 및 실행
+- 사전 요구사항
+  - Unity 에디터 버전: Unity 6000.0.44f1 (LTS) 이상
+  - 다음 Unity 패키지 설치 필요:
+    - Input System
+    - XR Interaction Toolkit
+    - TextMeshPro
+  - VR 기기 (선택, 실기 테스트용): Oculus Quest 2 또는 OpenXR 호환 헤드셋
 
 ---
-### 📦 素材来源 / 에셋 출처
+
+## 조작 설명
+ - 왼손 엄지 스틱(Thumbstick): 이동
+ - 왼손 X 버튼: 점프
+ - 왼손 Y 버튼: UI 패널 표시/숨기기
+ - 오른손 엄지 스틱(Thumbstick): 시점 전환
+ - 오른손 트리거(Trigger): 사격
+ - 오른손 그립 버튼(Grip Button): 무기 교체
+ - 오른손 A 버튼: 점프
+ - 오른손 B 버튼: 문 상호작용
+
+---
+
+
+### 에셋 출처
 
 - **Sketchfab**  
-  🔗 [https://sketchfab.com](https://sketchfab.com)  
-  查找并下载免费和付费 3D 模型（支持 Unity）  
+  🔗 [https://sketchfab.com](https://sketchfab.com)    
   무료 및 유료 3D 모델 검색 및 다운로드 (Unity 지원)
   
 - **Ammo Box**
