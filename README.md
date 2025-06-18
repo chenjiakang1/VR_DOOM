@@ -52,7 +52,7 @@ OOM은 빠른 전투 리듬, 복잡한 미로형 레벨 구성, 그리고 금속
 
 ---
 
-##  技术栈 / 기술 스택
+##  기술 스택
 
  - Unity 엔진 (MonoBehaviour, 씬 관리, 프리팹 인스턴싱)
  - C# (.NET) 언어 기능 (컬렉션, 이벤트 및 델리게이트, 싱글턴 패턴)
@@ -89,6 +89,13 @@ OOM은 빠른 전투 리듬, 복잡한 미로형 레벨 구성, 그리고 금속
 
 ---
 
+## 기여 분배
+진가강 : UI 패널 제작, UI 정보 관리, 세 가지 상호작용 아이템, 플레이어 피격 효과, 적 피격 효과, 기본 씬 구축，UI 텍스트에 표시된 탄약 수에 따라 사격을 제한
+VR 카메라 시점 설정, 무기 모델 컨트롤러 바인딩, 사격, 적 범위 감지, 추적 및 공격 애니메이션
+양신뢰 : 맵1 및 맵2 씬 구축
+맵1 및 맵2 씬 구축
+준비 로비 구축, 문 상호작용, 점프 구현
+
 
 ### 에셋 출처
 
@@ -109,4 +116,12 @@ OOM은 빠른 전투 리듬, 복잡한 미로형 레벨 구성, 그리고 금속
   - Author: SIUP
   - Link: https://assetstore.unity.com/packages/3d/props/first-aid-jar-285566
   - Usage: Used as Health Pickup in this project
+
+- ** Monster Mutant 7 **
+  - Source: Unity Asset Store
+  - Name: Monster Mutant 7
+  - Author: Panchenko Lyudmila
+  - Link: https://assetstore.unity.com/packages/3d/characters/creatures/monster-mutant-7-188552
+  - Usage: Used as Enemy Model in this project
+
 ---
