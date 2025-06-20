@@ -14021,6 +14021,7 @@ MonoBehaviour:
   decreaseArmorAction: {fileID: -6057057252385216204, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
   increaseArmorAction: {fileID: 4355134196676799686, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
   increaseExploreAction: {fileID: -1194136928657261299, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
+  currentRoomId: 
 --- !u!114 &46395752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108378,12 +108379,15 @@ MonoBehaviour:
     bulletPrefab: {fileID: 1869549004840801655, guid: 9db414ac6cb02b94cbf850576da41501, type: 3}
     fireRate: 0.1
     bulletSpeed: 50
+    gunshotSound: {fileID: 0}
   - gunObject: {fileID: 1678567304775186777}
     muzzleFlashPrefab: {fileID: 100006, guid: 7e9c50938e32351438a7df9ccad2f2a5, type: 3}
     muzzlePoint: {fileID: 269405209}
     bulletPrefab: {fileID: 1869549004840801655, guid: 9db414ac6cb02b94cbf850576da41501, type: 3}
     fireRate: 1.2
     bulletSpeed: 50
+    gunshotSound: {fileID: 0}
+  gunAudioSource: {fileID: 0}
 --- !u!1 &308734023
 GameObject:
   m_ObjectHideFlags: 0
@@ -292531,6 +292535,7 @@ MonoBehaviour:
   decreaseArmorAction: {fileID: -6057057252385216204, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
   increaseArmorAction: {fileID: 4355134196676799686, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
   increaseExploreAction: {fileID: -1194136928657261299, guid: 99c6b3556a6a740da8761ac08ae552da, type: 3}
+  currentRoomId: 
 --- !u!1 &882121068
 GameObject:
   m_ObjectHideFlags: 0
@@ -642415,6 +642420,37 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1898007803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1898007804}
+  m_Layer: 0
+  m_Name: a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1898007804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898007803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 30.18163, y: 5.955499, z: 13.026045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898444101
 GameObject:
   m_ObjectHideFlags: 0
@@ -734838,3 +734874,4 @@ SceneRoots:
   - {fileID: 1079970704}
   - {fileID: 1661203401}
   - {fileID: 1288958772}
+  - {fileID: 1898007804}

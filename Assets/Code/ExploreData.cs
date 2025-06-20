@@ -1,31 +1,43 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ExploreData : MonoBehaviour
 {
     public static ExploreData Instance;
 
-    public float exploreRate = 0f;
+    private Dictionary<string, float> exploreRates = new Dictionary<string, float>();
+    private Dictionary<string, int> totalMonstersPerRoom = new Dictionary<string, int>();
 
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // 保持跨场景存在
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject); // 防止重复
+            Destroy(gameObject);
         }
     }
 
-    public void SetExplore(float value)
+    public void SetExplore(string roomId, float value)
     {
-        exploreRate = value;
+        exploreRates[roomId] = Mathf.Clamp(value, 0f, 100f);
     }
 
-    public float GetExplore()
+    public float GetExplore(string roomId)
     {
-        return exploreRate;
+        return exploreRates.ContainsKey(roomId) ? exploreRates[roomId] : 0f;
+    }
+
+    public void SetTotalMonsters(string roomId, int count)
+    {
+        totalMonstersPerRoom[roomId] = count;
+    }
+
+    public int GetTotalMonsters(string roomId)
+    {
+        return totalMonstersPerRoom.ContainsKey(roomId) ? totalMonstersPerRoom[roomId] : 35; // 默认35
     }
 }

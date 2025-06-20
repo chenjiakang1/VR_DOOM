@@ -32,4 +32,5 @@ public class PanelToggleController : MonoBehaviour
             panel2.SetActive(isVisible);
         }
     }
+
 }
